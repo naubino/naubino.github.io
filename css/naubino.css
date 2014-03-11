@@ -1,0 +1,116 @@
+@media screen and (view-mode: minimized) {
+    body 
+    {
+        background: #ffffff;
+        background-image:  url('../images/game.png');
+        background-size: 120% auto;
+    }
+    body > *
+
+    {
+        display: none;
+    }
+}
+
+body 
+{
+    margin:0;
+    background-color:rgb(88%,88%,88%);
+}
+.container{
+    display:block;
+    border:1px solid gray;
+    background-color: #fff;
+}
+
+canvas, .canvas 
+{
+    display:block;
+    border:1px solid gray;
+    background-color: rgba(255,255,255,0);
+}
+
+#background_canvas 
+{
+    background-color: #fff;
+}
+
+#highscore
+{
+    display:none;
+}
+
+header
+{
+    margin:auto;
+    align:center;
+}
+
+/*h1 
+{
+    font-family: "Comfortaa";
+    font-size:32pt;
+    color: white;
+    text-shadow: hsl(0,0%,022%) 2px 2px 4px;
+}*/
+
+#footerdiv 
+{
+    text-align:center;
+    display:block;
+    margin:auto;
+    max-width:1024px;
+    padding:0 1em;
+}
+
+
+#gamediv 
+{
+    background-color: #fff;
+    display:block;
+}
+
+
+#gamediv > canvas, #gamediv .canvas
+{
+    position: absolute;
+    z-index:0;
+    left:auto;
+    top: 20px;
+}
+
+form
+{
+    position: absolute;
+    text-align:center;
+}
+
+#gamediv > span
+{
+    position: absolute;
+    text-align:center;
+    width:600px;
+    height:400px;
+    padding-top:50px;
+    z-index:10;
+}
+
+form label
+{
+    font-size:11px;
+}
+
+.flattr
+{
+    position:absolute;
+    top: 550px;
+}
+
+select.btn
+{
+    text-align: left;
+    height: 1.6em;
+    width: 120px;
+}
+
+
