@@ -12,8 +12,18 @@
     <script type="text/javascript" src="lib/cp.min.js"></script>
     <script type="text/javascript" src="lib/zepto.min.js"></script>
     <script type="text/javascript" src="lib/require.js" data-main="Naubino.min"></script>
+    <script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */</script>
   </head>
-  <body>
+  <body id="dist">
     <!--<a id="github" href="https://github.com/hoodie/naubino.js">
         <span>Watch me on Github!</span>
         <span>Stay tuned!</span>
@@ -43,12 +53,16 @@
 
         <select id="colors"  class="btn btn-mini" > </select>
         <!-- <a href="http://www1.inf.tu-dresden.de/~s8880935/naubino/">there be a reference</a> -->
+        <!-- 
 
         <a href="http://flattr.com/thing/685359/naubino" target="_blank"> <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+        -->
 
         <a class="btn btn-mini" id="highscorelink" href="highscore.html">HighScore</a>
         <a class="btn btn-mini" href="https://github.com/hoodie/naubino.js">naubino on github</a>
       </form>
+
+        <a class="FlattrButton" style="display:none;" href="http://naubino.github.com"></a>
 
 <!--      <div class="fluid-row">
   <div class="span12">-->

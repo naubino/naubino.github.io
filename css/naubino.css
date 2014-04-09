@@ -71,6 +71,10 @@ header
 }
 
 
+body#dist #gamediv > canvas, #gamediv .canvas
+{
+    top: 20px;
+}
 #gamediv > canvas, #gamediv .canvas
 {
     position: absolute;
@@ -100,6 +104,12 @@ form label
     font-size:11px;
 }
 
+.FlattrButton{
+    position:absolute;
+    right: 30px;
+    top: 20px;
+    text-align:center;
+}
 .flattr
 {
     position:absolute;
